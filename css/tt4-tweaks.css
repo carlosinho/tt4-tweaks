@@ -1,1 +1,39 @@
 /* Main stylesheet for TT4 Tweaks plugin */ 
+
+@media (max-width: 600px) {
+  /* For block editor images */
+  .wp-block-post-content .wp-block-image.alignleft,
+  .wp-block-post-content .wp-block-image.alignright,
+  .entry-content .wp-block-image.alignleft,
+  .entry-content .wp-block-image.alignright {
+    float: none !important;
+    display: block !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 100% !important;
+    text-align: center !important;
+  }
+  .wp-block-post-content .wp-block-image.alignleft img,
+  .wp-block-post-content .wp-block-image.alignright img,
+  .entry-content .wp-block-image.alignleft img,
+  .entry-content .wp-block-image.alignright img {
+    float: none !important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  /* For classic editor images */
+  .wp-block-post-content img.alignleft,
+  .wp-block-post-content img.alignright,
+  .entry-content img.alignleft,
+  .entry-content img.alignright {
+    float: none !important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+} 

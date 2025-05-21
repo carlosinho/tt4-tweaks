@@ -1,9 +1,10 @@
 <?php
 /**
  * Plugin Name: TT4 Tweaks
- * Description: This plugin tweaks various things in the Twenty Twenty-Four theme.
+ * Description: This plugin tweaks various things in the Twenty Twenty-Four theme. Mainly the way the theme displays images on mobile.
  * Version: 0.0.1
  * Author: Karol K
+ * Author URI: https://wpwork.shop/
  * License: GPL2
  * Text Domain: tt4-tweaks
  */
